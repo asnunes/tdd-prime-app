@@ -39,4 +39,8 @@ describe("primeFactors", () => {
   it("should return list with [7] when given number is 7", () => {
     expect(primeFactorsOf(7)).toEqual([7]);
   });
+
+  it("should return list with [2, 2, 2] when given number is 8", () => {
+    expect(primeFactorsOf(8)).toEqual([2, 2, 2]);
+  });
 });
