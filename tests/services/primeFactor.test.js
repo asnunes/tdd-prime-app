@@ -19,4 +19,8 @@ describe("primeFactor", () => {
 
     expect(result).toEqual([2]);
   });
+
+  it("should return list with 3 when given number is 3", () => {
+    expect(primeFactorOf(3)).toEqual([3]);
+  });
 });
