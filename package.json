@@ -1,0 +1,26 @@
+{
+  "name": "tdd-prime-app",
+  "version": "1.0.0",
+  "description": "Small Node APP to get prime factors from given number that was built using TDD",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asnunes/tdd-prime-app.git"
+  },
+  "keywords": [
+    "tdd",
+    "prime",
+    "numbers",
+    "node",
+    "jest"
+  ],
+  "author": "Alexandre Nunes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/asnunes/tdd-prime-app/issues"
+  },
+  "homepage": "https://github.com/asnunes/tdd-prime-app#readme"
+}
