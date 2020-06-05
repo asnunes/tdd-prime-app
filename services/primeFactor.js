@@ -3,13 +3,13 @@ module.exports = function primeFactorsOf(n) {
 
   if (n > 1) {
     if (n % 2 === 0) {
-      factors.push(n);
+      factors.push(2);
       n = n / 2;
     }
+  }
 
-    if (n > 1) {
-      factors.push(n);
-    }
+  if (n > 1) {
+    factors.push(n);
   }
 
   return factors;
