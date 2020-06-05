@@ -7,6 +7,11 @@ module.exports = function primeFactorsOf(n) {
       factors.push(2);
       remainder = remainder / 2;
     }
+
+    while (remainder % 3 === 0) {
+      factors.push(3);
+      remainder = remainder / 3;
+    }
   }
 
   if (remainder > 1) {
