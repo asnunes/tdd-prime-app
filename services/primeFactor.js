@@ -3,7 +3,7 @@ module.exports = function primeFactorsOf(n) {
   let remainder = n;
 
   if (n > 1) {
-    if (n % 2 === 0) {
+    while (remainder % 2 === 0) {
       factors.push(2);
       remainder = remainder / 2;
     }
