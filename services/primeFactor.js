@@ -1,15 +1,16 @@
 module.exports = function primeFactorsOf(n) {
   const factors = [];
+  let remainder = n;
 
   if (n > 1) {
     if (n % 2 === 0) {
       factors.push(2);
-      n = n / 2;
+      remainder = remainder / 2;
     }
   }
 
-  if (n > 1) {
-    factors.push(n);
+  if (remainder > 1) {
+    factors.push(remainder);
   }
 
   return factors;
