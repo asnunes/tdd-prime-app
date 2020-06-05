@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/asnunes/tdd-prime-app/issues"
   },
-  "homepage": "https://github.com/asnunes/tdd-prime-app#readme"
+  "homepage": "https://github.com/asnunes/tdd-prime-app#readme",
+  "devDependencies": {
+    "jest": "^26.0.1"
+  }
 }
